@@ -1,0 +1,132 @@
+
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.logo img {
+    width: 35px;
+    margin-top: 10px;
+    left: -5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+main {
+    background-color: #F8F9FB;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.button_apply {
+    float: right;
+}
+
+.job_block {
+    font-family: "Circe Rounded";
+    margin-bottom: 25px;
+}
+
+.jobs_title {
+    font-size: 24px;
+    line-height: 36px;
+    font-family: "Circe Rounded";
+    color: #808080;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.job_block:hover .job_name {
+    color: #0C92F3;
+    transition-duration: 0.2s;
+}
+
+
+.job_ad {
+    padding-bottom: 12px;
+}
+
+.job_name {
+    font-size: 24px;
+    line-height: 33px;
+    color: #515357;
+}
+
+.job_place {
+    font-size: 12px;
+    line-height: 16px;
+    color: #808080;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    word-spacing: 12px;
+}
+
+.button_apply {
+    background-color: #0C92F3;
+    color: #ffffff;
+    padding: 5px 24px;
+    border-radius: 7%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.button_apply:hover {
+    background-color: #0A83DA;
+}
+
+.page2footer {
+    background-color: #EDEEF1;
+    font-family: Roboto;
+    text-align: center;
+    height: 250px;
+}
+
+.homepage_link {
+    padding-top: 47px;
+    padding-bottom: 40px;
+}
+
+.homepage_link a {
+    color: #4e8ed6;
+    text-decoration-line: underline;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+
+.homepage_link a:hover {
+    color: #4883C5;
+}
+
+.footer_text {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_text a {
+    color: #7f838a;
+}
+
+.footer_text a:hover {
+    text-decoration-line: underline;
+}
+
+.footer_text img {
+    padding-left: 10px;
+    width: 85px;
+    position: relative;
+}

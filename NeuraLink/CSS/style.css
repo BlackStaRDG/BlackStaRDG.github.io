@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F9FB;
+}
+
+.container {
+    font-family: Gisha;
+}
+
+.header {
+    width: 1850px;
+    margin: 0 auto;
+    padding-bottom: 42px;
+}
+
+.logo img {
+    width: 50px;
+    margin-top: 24px;
+}
+
+.neuralink_title {
+    font-size: 100px;
+    color: #0A2437;
+    font-weight: 500;
+    margin-top: 42px;
+    letter-spacing: 6px;
+    padding-bottom: 9px;
+}
+
+.neuralink_text {
+    font-size: 26px;
+    line-height: 40px;
+    color: #202E3D;
+    padding-bottom: 22px;
+}
+
+.main {
+    width: 1680px;
+    margin: 0 auto;
+}
+
+.neuralink_text_time {
+    font-size: 26px;
+    color: #0A2437;
+    padding-bottom: 54px;
+}
+
+.learn_section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 55px;
+}
+
+.first {
+    display: block;
+    background-color: white;
+    width: 820px;
+    height: 377px;
+}
+
+.second {
+    display: block;
+    background-color: white;
+    width: 820px;
+}
+
+.learn_title {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #0A2437;
+    padding-bottom: 16px;
+}
+
+.learn_text {
+    color: #879FBC;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 100;
+    padding-bottom: 19px;
+}
+
+.inner_block {
+    padding: 57px 66px;
+}
+
+.go_link {
+    background-color: #07DED2;
+    margin-bottom: 20px;
+}
+
+.go_link p {
+    color: #F7FDFE;
+    padding: 20px 16px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.go_link p:hover {
+    color: #0A2437;
+}
+
+.go_link img {
+    width: 15px;
+    float: right;
+    margin: auto;
+}
+
+.go_link a {
+    text-decoration-line: none;
+}
+
+.go_link:hover {
+    background-color: #F3F3F3;
+    transition-duration: 0.3s;
+}
+
+.job_link {
+    background-color: #0A2437;
+}
+
+.footer {
+    width: 1860px;
+    margin: 0 auto;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    color: #879FBC;
+}
+
+.footer_block a {
+    text-decoration-line: none;
+    color: #879FBC;
+}
+
